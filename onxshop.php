@@ -30,7 +30,7 @@ class OnxshopWordpress {
 	 
 	public static function initialize() {
 		
-		if (!defined('ONXSHOP_PROJECT_DIR_WPx')) {
+		if (!defined('ONXSHOP_PROJECT_DIR_WP')) {
 			
 			//self::installationHint();
 			return false;
